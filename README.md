@@ -1,69 +1,46 @@
-# React + TypeScript + Vite
+<div align="center">
+   <img src="./Poster.jpeg" alt="Poster" />
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1 align="center">Personal Portfolio</h1>
 
-Currently, two official plugins are available:
+<div align="center">
+<img src="https://img.shields.io/github/contributors/CodeDragon03/Protfolio?style=for-the-badge&logo=github&color=green" alt="GitHub contributors" />
+<img src="https://img.shields.io/github/forks/CodeDragon03/Protfolio?style=for-the-badge&logo=github&color=green" alt="GitHub forks" />
+<img src="https://img.shields.io/github/stars/CodeDragon03/Protfolio?style=for-the-badge&logo=github&color=green" alt="GitHub Repo stars" />
+<img src="https://img.shields.io/github/issues/CodeDragon03/Protfolio?style=for-the-badge&logo=github&color=green" alt="GitHub Issues or Pull Requests" />
+</div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h2>Table Of Contents</h2>
 
-## Expanding the ESLint configuration
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Author](#author)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+<h2>Getting Started</h2>
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/CodeDragon03/Protfolio.git
+   ```
+2. **Install dependencies:**
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+   ```bash
+   cd Protfolio
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+   pnpm install
+   ```
+
+3. For detailed setup instructions, see [Getting Started](#getting-started).
+
+<h2>Usage</h2>
+
+Use the following command to run the application:
+
+```bash
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+<h2>Author</h2>
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+      Jay Yadav @CodeDragon03
