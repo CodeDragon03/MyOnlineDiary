@@ -2,13 +2,13 @@
    <img src="./Poster.jpeg" alt="Poster" />
 </div>
 
-<h1 align="center">Personal Portfolio</h1>
+<h1 align="center">MyOnlineDiary</h1>
 
 <div align="center">
-<img src="https://img.shields.io/github/contributors/CodeDragon03/Protfolio?style=for-the-badge&logo=github&color=green" alt="GitHub contributors" />
-<img src="https://img.shields.io/github/forks/CodeDragon03/Protfolio?style=for-the-badge&logo=github&color=green" alt="GitHub forks" />
-<img src="https://img.shields.io/github/stars/CodeDragon03/Protfolio?style=for-the-badge&logo=github&color=green" alt="GitHub Repo stars" />
-<img src="https://img.shields.io/github/issues/CodeDragon03/Protfolio?style=for-the-badge&logo=github&color=green" alt="GitHub Issues or Pull Requests" />
+<img src="https://img.shields.io/github/contributors/CodeDragon03/MyOnlineDiary?style=for-the-badge&logo=github&color=green" alt="GitHub contributors" />
+<img src="https://img.shields.io/github/forks/CodeDragon03/MyOnlineDiary?style=for-the-badge&logo=github&color=green" alt="GitHub forks" />
+<img src="https://img.shields.io/github/stars/CodeDragon03/MyOnlineDiary?style=for-the-badge&logo=github&color=green" alt="GitHub Repo stars" />
+<img src="https://img.shields.io/github/issues/CodeDragon03/MyOnlineDiary?style=for-the-badge&logo=github&color=green" alt="GitHub Issues or Pull Requests" />
 </div>
 
 <h2>Table Of Contents</h2>
@@ -21,12 +21,12 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/CodeDragon03/Protfolio.git
+   git clone https://github.com/CodeDragon03/MyOnlineDiary.git
    ```
 2. **Install dependencies:**
 
    ```bash
-   cd Protfolio
+   cd MyOnlineDiary
 
    pnpm install
    ```
