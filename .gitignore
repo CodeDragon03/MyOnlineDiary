@@ -243,6 +243,9 @@ csx/
 ecf/
 rcf/
 
+# Husky
+.husky
+
 # Windows Store app package directories and files
 AppPackages/
 BundleArtifacts/
