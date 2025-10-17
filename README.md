@@ -1,5 +1,5 @@
 <div align="center">
-   <img src="./Poster.jpeg" alt="Poster" />
+   <img src="./.diagrams/resources/Poster.jpeg" alt="Poster" />
 </div>
 
 <h1 align="center">MyOnlineDiary</h1>

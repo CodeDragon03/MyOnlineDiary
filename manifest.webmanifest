@@ -1,0 +1,16 @@
+{
+  "name": "Portfolio",
+  "display": "standalone",
+  "short_name": "Portfolio",
+
+  "icons": [
+    {
+      "src": "./public/logoLarge.png",
+      "type": "image/png"
+    },
+    {
+      "src": "./public/logoLarge.png",
+      "type": "image/png"
+    }
+  ]
+}
