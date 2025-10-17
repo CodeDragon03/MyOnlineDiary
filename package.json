@@ -7,7 +7,8 @@
         "dev": "vite",
         "build": "tsc -b && vite build",
         "lint": "eslint .",
-        "test": "vitest",
+        "test:unit": "vitest",
+        "test:e2e": "cypress open",
         "prepare": "husky",
         "preview": "vite preview"
     },
@@ -47,7 +48,8 @@
         "onlyBuiltDependencies": [
             "@swc/core",
             "@tailwindcss/oxide",
-            "@vercel/speed-insights"
+            "@vercel/speed-insights",
+            "cypress"
         ]
     }
 }
