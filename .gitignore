@@ -246,6 +246,11 @@ rcf/
 # Husky
 .husky
 
+# Cypress
+cypress/downloads/*
+cypress/screenshots/*
+cypress/videos/*
+
 # Windows Store app package directories and files
 AppPackages/
 BundleArtifacts/
