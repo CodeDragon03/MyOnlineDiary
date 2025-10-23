@@ -1,5 +1,5 @@
 <div align="center">
-   <img src="./.diagrams/resources/Poster.jpeg" alt="Poster" />
+   <img src="./refrences/resources/Poster.jpeg" alt="Poster" />
 </div>
 
 <h1 align="center">MyOnlineDiary</h1>
@@ -20,16 +20,16 @@
 <h2>Getting Started</h2>
 
 1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/CodeDragon03/MyOnlineDiary.git
-   ```
+    ```bash
+    git clone https://github.com/CodeDragon03/MyOnlineDiary.git
+    ```
 2. **Install dependencies:**
 
-   ```bash
-   cd MyOnlineDiary
+    ```bash
+    cd MyOnlineDiary
 
-   pnpm install
-   ```
+    pnpm install
+    ```
 
 3. For detailed setup instructions, see [Getting Started](#getting-started).
 

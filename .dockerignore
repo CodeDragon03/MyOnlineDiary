@@ -1,0 +1,24 @@
+# node build files
+node_modules
+dist
+
+# Husky files
+.husky
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment folder
+.venv/
+
+# Github files
+.github/
+.git/
+.vscode/
+
+# Documentation files
+.diagrams/
+README.md
