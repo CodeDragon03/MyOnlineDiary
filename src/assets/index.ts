@@ -1,3 +1,3 @@
 import { logoDark, logoLight } from './img/index.js';
 
-export { logoDark, logoLight };
+export { logoDark as LogoDark, logoLight as LogoLight };
